@@ -57,3 +57,12 @@
 
 print("Hello, World!")
 print("I am learning Python!")
+
+
+import pandas as pd
+import numpy as np
+a = np.array([2,3,4])
+b = np.array([4,5,6])
+
+print(np.add(a,b))
+print(np.mean(a,b))
